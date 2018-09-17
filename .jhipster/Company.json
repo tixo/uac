@@ -1,0 +1,27 @@
+{
+    "name": "Company",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "dept",
+            "otherEntityName": "department",
+            "otherEntityRelationshipName": "company"
+        }
+    ],
+    "changelogDate": "20180917031608",
+    "entityTableName": "company",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*",
+    "angularJSSuffix": "mySuffix"
+}

@@ -1,0 +1,49 @@
+
+
+
+
+/**
+ * The Employee entity.
+ */
+entity Employee {
+	/**
+	* The firstname attribute.
+	*/
+	firstName String,
+	lastName String,
+	email String,
+	phoneNumber String,
+	hireDate Instant,
+	salary Long,
+	commissionPct Long
+}
+
+entity Company {
+ name String
+}
+
+entity Department {
+name String
+}
+
+relationship OneToMany {
+	Company{dept} to Department,
+	
+	Department{emp} to
+	/**
+	* Another side of the same relationship
+	*/
+	Employee
+}
+
+
+
+
+
+
+
+
+// Set service options to all except few
+service all with serviceImpl
+// Set an angular suffix
+angularSuffix * with mySuffix
