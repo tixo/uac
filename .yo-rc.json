@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.zkyz.uac",
+      "nativeLanguage": "zh-cn"
+    },
+    "jhipsterVersion": "5.3.1",
+    "applicationType": "monolith",
+    "baseName": "uac",
+    "packageName": "com.zkyz.uac",
+    "packageFolder": "com/zkyz/uac",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZmRmOWUzODU5Y2M1MDNjZDdjZTEwM2U2ZjE5MzZiZTQwYWQzNmY1ODY2ZmRhNmY4MTAxNWY5ZjA3MjhlYjVhZjgxZjI1M2JlM2JlZGQ2NjY0ODkwMzRiNjAwYTBkMDBmYmFjMTgzNzliOWY3YTIyNzk0YWQzZTNkMTY0NDRmYjg=",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "zh-cn",
+    "languages": [
+      "zh-cn"
+    ]
+  }
+}
